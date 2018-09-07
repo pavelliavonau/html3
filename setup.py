@@ -15,6 +15,9 @@ setuptools.setup(
     author_email="liavonlida@gmail.com",
     packages=setuptools.find_packages(),
     url='http://pypi.python.org/pypi/html3',
+    project_urls={
+        "Source Code": "https://github.com/pavelliavonau/html3/",
+    },
     classifiers=[
         'Environment :: Web Environment',
         'Intended Audience :: Developers',

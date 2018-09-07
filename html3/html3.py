@@ -224,7 +224,7 @@ See the end of the source file for the license of use.
 XHTML support was contributed by Michael Haubenwallner.
 '''
 from __future__ import with_statement
-__version__ = '1.16'
+__version__ = '1.17'
 
 import sys
 import cgi

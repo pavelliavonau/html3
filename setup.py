@@ -11,6 +11,7 @@ setuptools.setup(
     version=__version__,
     description="simple, elegant HTML, XHTML and XML generation for python3 (based on html)",
     long_description=long_description,
+    keywords="html web",
     author="Pavel Liavonau",
     author_email="liavonlida@gmail.com",
     packages=setuptools.find_packages(),
@@ -18,6 +19,9 @@ setuptools.setup(
     project_urls={
         "Source Code": "https://github.com/pavelliavonau/html3/",
     },
+
+    python_requires='>=3.5',
+
     classifiers=[
         'Environment :: Web Environment',
         'Intended Audience :: Developers',

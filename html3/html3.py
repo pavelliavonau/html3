@@ -193,6 +193,8 @@ If your tag name isn't a valid Python identifier name, or if it's called
 Version History (in Brief)
 --------------------------
 
+- 1.18 Fixed support of python 3.8
+- 1.17 First release of html3
 - 1.16 detect and raise a more useful error when some WSGI frameworks
   attempt to call HTML.read(). Also added ability to add new content using
   the += operator.
@@ -224,7 +226,7 @@ See the end of the source file for the license of use.
 XHTML support was contributed by Michael Haubenwallner.
 '''
 from __future__ import with_statement
-__version__ = '1.17'
+__version__ = '1.18'
 
 import sys
 import html
